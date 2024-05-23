@@ -37,7 +37,7 @@ app.put('/update/:id',async (c)=>{
     }
    
      videos[index]={
-            ...videos[index],
+            ...videos[index], //to restore the value which dosen't change and then what we want to change
             videoName: res.videoName,
             duration:res.duration
         }

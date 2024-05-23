@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "dev": "wrangler dev src/exp.js",
+    "dev": "wrangler dev src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
     "hono": "^4.3.9",
+    "mongoose": "^8.4.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
